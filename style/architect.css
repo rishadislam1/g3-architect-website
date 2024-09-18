@@ -2,12 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Noto+Sans+JP:wght@100..900&family=Protest+Guerrilla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Mingzat&family=Noto+Sans+JP:wght@100..900&family=Protest+Guerrilla&display=swap');
 
-
-body {
+/*shared-styles*/
+* {
     font-family: "Noto Sans JP", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
+}
+.btn-primary{
+  
 }
 header {
   background: rgba(255, 144, 14, 0.1);
@@ -42,3 +45,21 @@ nav li a {
   text-decoration: none;
   color: #424242;
 }
+.banner-content{
+  max-width: 800;
+  text-align: center;
+  margin:auto;
+}
+.nav-title{
+  color:#131313;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.banner-description{
+  font-size: 16px;
+  font-weight: 400;
+  color:#727272;
+
+}
+
