@@ -10,7 +10,15 @@
   font-style: normal;
 }
 .btn-primary{
-  
+  border-radius: 8px;
+  background-color: #FF900E;
+  padding: 20px 25px;
+  color:#FFFFFF;
+  font-size: 1.35rem;
+  border: hidden;
+  cursor: grab; 
+
+  ;
 }
 header {
   background: rgba(255, 144, 14, 0.1);
@@ -61,5 +69,26 @@ nav li a {
   font-weight: 400;
   color:#727272;
 
+}
+.banner img{
+  margin-top: 1.25rem;
+  width:100%;
+}
+@media screen and (max-width: 576px) {
+  header{
+    padding: 20px;
+  }
+  nav{
+    flex-direction: column;
+  }
+  
+}
+@media  screen and (min-width:576px) and (max-width:960px) {
+  header{
+    padding: 50px;
+  }
+  nav{
+    flex-direction: column;
+  }
 }
 
